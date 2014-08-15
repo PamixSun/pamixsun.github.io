@@ -13,18 +13,12 @@ find out more about me professionally at [LinkedIn][linkedin].
 
 You can also find me on a variety of other places across the t'interwebs:
 
-* [Twitter][twitter] - Random ramblings
-* [Google+][gplus] - It's better than Facebook
-* [Instagram][instagram] - Short stories via photo snapshots
-* [GitHub][github] - Not a great deal here, although I was responsible for the pilot of GitHub Enterprise at my current place of work
-* [StackOverflow][stackoverflow] - Dev Q&A, mostly Ruby/Rails or DevOps related stuff.
-* [Last.fm][lastfm] - Rock 'n roll
+* [Weibo][weibo] - A website like twitter, popular in China.
+* [CSDN][csdn] - A popular website for programmers in China.
+* [GitHub][github] - Not a great deal here, although I was responsible for the pilot of GitHub Enterprise at my current place of work.
 
 
-[github]: http://www.github.com/DaveStephens
+[github]: http://www.github.com/PamixSun
 [instagram]: http://www.instagram.com/ripuk
-[twitter]: https://www.twitter.com/DaveStephens
-[linkedin]: http://uk.linkedin.com/in/davidjstephens
-[lastfm]: http://www.last.fm/user/ripuk
-[stackoverflow]: http://stackoverflow.com/users/425144/ripuk
-[gplus]: https://plus.google.com/+DavidStephens?rel=author
+[weibo]: http://weibo.com/u/1847756827
+[csdn]: http://blog.csdn.net/yunduanmuxue
