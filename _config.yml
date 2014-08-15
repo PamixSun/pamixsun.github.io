@@ -1,0 +1,21 @@
+# Site settings
+title: Xu Sun
+tagline: 'English technologist living in London.'
+email: pamixsun@gmail.com
+description: 'Personal site of Xu Sun, an English technologist living in London.'
+baseurl: ""
+url: "http://pamixsun.github.io"
+
+author:
+  name:           'Xu Sun'
+  url:            http://weibo.com/u/1847756827
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+paginate:         5
+
+gems:
+  - jekyll-sitemap
+

@@ -1,0 +1,36 @@
+---
+layout: default
+title: Home
+---
+
+<div class="home">
+
+    <h1>Posts</h1>
+
+    <ul class="posts">
+        {% for post in site.posts %}
+        <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <span class="posted-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/atom.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+    <h3>Other Things I've Knocked Up Recently</h3>
+    <ul class="things">
+        <li><a href="http://www.slowcookerclub.com" target="_blank">Slow Cooker Club</a>
+            - A site specialising in Slow Cooking
+        </li>
+        <li><a href="http://www.musiciansintuition.com" target="_blank">Musicians Intuition</a>
+            - A site for students to find quality instrument tutors for free
+        </li>
+        <li><a href="http://www.theodysseye14.co.uk" target="_blank">The Odyssey Residents Association</a>
+            - Community site for the residents of The Odyssey, a housing development on the edge of the Thames in London.
+        </li>
+    </ul>
+
+
+</div>
