@@ -11,7 +11,7 @@ You can also find me on a variety of other places across the t'interwebs:
 
 * [Weibo][weibo] - A website like twitter, popular in China.
 * [CSDN][csdn] - A popular website for programmers in China.
-* [GitHub][github] - Not a great deal here, although I was responsible for the pilot of GitHub Enterprise at my current place of work.
+* [GitHub][github] - Not a great deal here, although I was responsible for the pilot of GitHub Enterprise at my current stage of work.
 
 
 [github]: http://www.github.com/PamixSun
