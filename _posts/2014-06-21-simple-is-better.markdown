@@ -6,6 +6,7 @@ categories: update
 ---
 
 Why we need to study algorithms ? The reasons can be summarized as follows:
+
   * Their impact is broad and far-reaching.
   * Old roots, new opportunities.
   * To solve problems that could not otherwise be addressed.
