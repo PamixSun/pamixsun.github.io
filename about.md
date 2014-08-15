@@ -13,6 +13,8 @@ You can also find me on a variety of other places across the t'interwebs:
 * [CSDN][csdn] - A popular website for programmers in China.
 * [GitHub][github] - Not a great deal here, although I was responsible for the pilot of GitHub Enterprise at my current stage of work.
 
+Contact with me: pamixsun@gmail.com
+
 
 [github]: http://www.github.com/PamixSun
 [instagram]: http://www.instagram.com/ripuk
