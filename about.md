@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-My name is David Stephens, Stephens with a P-H. I'm an English technologist living in London, who has a love of bikes, computers, beer, 
-taking photos, drums, and adventure games by Sierra (Space Quest IV is a particular favourite). I also spend a fair amount of time smashing things 
-together in Ruby - that combined with RubyMine makes hacking away on code a nice passtime. 
-
-I've worked in the financial services industry most of my career, with companies such as Goldman Sachs and more recently Credit Suisse. You can 
-find out more about me professionally at [LinkedIn][linkedin].
+My name is Xu Sun. I'm an Chinese student living in Guangzhou, whose main interests are machine learning, data analysis and efficient algorithms. 
+I also spend a fair amount of time programming for fun, and the languages that I have ever used include C, C++, Java, Python and Matlab etc.
 
 You can also find me on a variety of other places across the t'interwebs:
 
