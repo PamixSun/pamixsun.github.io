@@ -12,11 +12,12 @@ You can also find me on a variety of other places across the Internet:
 * [Weibo][weibo] - A website like twitter, popular in China.
 * [CSDN][csdn] - A popular website for programmers in China.
 * [GitHub][github] - A wonderful website which could help you to build your software better.
+* [StackOverflow][stackoverflow] - Q & A, to share your knowledge.
 
 Contact with me: pamixsun@gmail.com
 
 
 [github]: http://www.github.com/PamixSun
-[instagram]: http://www.instagram.com/ripuk
+[stackoverflow]: http://stackoverflow.com/users/3949420/xu-sun
 [weibo]: http://weibo.com/u/1847756827
 [csdn]: http://blog.csdn.net/yunduanmuxue
