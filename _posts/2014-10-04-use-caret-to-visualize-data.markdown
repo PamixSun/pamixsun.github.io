@@ -18,7 +18,7 @@ The **caret** package (short for Classification And Regression Training) is a se
 
 as well as other functionality.
  
-In this post, I will show how to use this package to visualize our data set.
+In this post, I will show you how to use this package to visualize our data set.
  
 To install this package, type the code below in the **R** evirernment:
  
