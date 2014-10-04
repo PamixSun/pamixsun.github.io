@@ -85,4 +85,4 @@ and the box plots:
 ![plot of chunk unnamed-chunk-5](/images/figure/unnamed-chunk-5.png) 
  
  
-Hope you can use the **caret** to visualize your own data sets in **R** now.
+Hope you can use **caret** to visualize your own data sets in **R** now.
