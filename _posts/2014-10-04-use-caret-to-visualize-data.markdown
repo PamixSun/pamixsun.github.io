@@ -54,7 +54,7 @@ Next, we will load **caret** in and use it to visualize **iris** as a scatter pl
 
 ![plot of chunk unnamed-chunk-3](/images/figure/unnamed-chunk-3.png) 
  
-Besides, we can also get the overlayed density plots:
+In addition, we can also get the overlayed density plots:
 
     featurePlot(x = iris[, 1:4],
                       y = iris$Species,
@@ -84,4 +84,4 @@ and the box plots:
 ![plot of chunk unnamed-chunk-5](/images/figure/unnamed-chunk-5.png) 
  
  
-Hope you can use **caret** to visualize your own data sets in **R** now.
+Hope you could use **caret** to visualize your own data sets in **R** now.
