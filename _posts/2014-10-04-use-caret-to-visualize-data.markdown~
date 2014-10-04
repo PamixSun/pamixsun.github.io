@@ -25,7 +25,7 @@ To install this package, type the code below in the R evirernment:
 
     install.packages('caret')
  
-The **iris** data are used here for investigation, whose basic information is describe below:
+The **iris** data are used here for investigation, the below is some basic information of it:
  
 
     str(iris)
