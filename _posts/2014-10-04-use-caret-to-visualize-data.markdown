@@ -6,7 +6,6 @@ categories: update
 output: html_document
 published: true
 status: publish
- 
 ---
  
 The **caret** package (short for Classification And Regression Training) is a set of functions that attempt to streamline the process for creating predictive models. The package contains tools for:
@@ -26,7 +25,7 @@ To install this package, type the code below in the **R** evirernment:
 
     install.packages('caret')
  
-The **iris** data are used here for investigation, whose basic information is describe below:
+The **iris** data set is used here for investigation, whose basic information is describe below:
  
 
     str(iris)
@@ -55,7 +54,7 @@ Next, we will load **caret** in and use it to visualize **iris** as a scatter pl
 
 ![plot of chunk unnamed-chunk-3](/images/figure/unnamed-chunk-3.png) 
  
-Furture more, we can get also the overlayed density plots:
+Besides, we can also get the overlayed density plots:
 
     featurePlot(x = iris[, 1:4],
                       y = iris$Species,
