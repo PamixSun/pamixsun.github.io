@@ -21,7 +21,7 @@ as well as other functionality.
  
 In this post, I will show how to use this package to visualize our data set.
  
-To install this package, type the code below in the R evirernment:
+To install this package, type the code below in the **R** evirernment:
  
 
     install.packages('caret')
@@ -85,4 +85,4 @@ and the box plots:
 ![plot of chunk unnamed-chunk-5](/images/figure/unnamed-chunk-5.png) 
  
  
- 
+Hope you can use the **caret** to visualize your own data sets in **R** now.
