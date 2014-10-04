@@ -16,6 +16,7 @@ The **caret** package (short for Classification And Regression Training) is a se
 - feature selection
 - model turning using resampling
 - variable importance estimation
+
 as well as other functionality.
  
 In this post, I will show how to use this package to visualize our data set.
