@@ -2,13 +2,13 @@
 title: Always With Me
 tagline: 'Personal site of Xu Sun.'
 email: pamixsun@gmail.com
-description: 'Personal site of Xu Sun, a Chinese student studing in Guangzhou.'
+description: 'Personal site of Xu Sun, a Chinese student studying in Guangzhou.'
 baseurl: ""
 url: "http://pamixsun.github.io"
 
 author:
   name:           'Xu Sun'
-  url:            http://weibo.com/u/1847756827
+  url:            http://pamixsun.github.io
 
 # Build settings
 markdown: kramdown
