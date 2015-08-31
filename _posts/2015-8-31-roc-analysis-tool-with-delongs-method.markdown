@@ -123,7 +123,7 @@ Furthur more, I have published a UI tool for ROC analysis in my github page, you
 
 If you publish material based on these code, then, please refer to our paper:
 
-    X. Sun, W. Xu, Fast implementation of DeLong's algorithm for comparing the areas under correlated receiver operating characteristic curves, IEEE Signal Processing Letters 21 (11) (2014) 1389{1393.
+    X. Sun, W. Xu, Fast implementation of DeLong's algorithm for comparing the areas under correlated receiver operating characteristic curves, IEEE Signal Processing Letters 21 (11) (2014) 1389-1393.
 
 Here is a BiBTeX citation as well:
 
@@ -133,7 +133,7 @@ Here is a BiBTeX citation as well:
       journal={IEEE Signal Processing Letters},
       volume={21},
       number={11},
-      pages={1389--1393},
+      pages={1389-1393},
       year={2014},
       publisher={IEEE}
     }
