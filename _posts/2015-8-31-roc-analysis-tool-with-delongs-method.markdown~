@@ -5,7 +5,7 @@ date:   2015-8-31
 categories: update
 ---
 
-**Background**
+##**Background**
 
 CLASSIFICATION is an important framework of data analysis that extracts models describing and distinguishing data classes and concepts associated with the observed dataset.
 To evalute the performance of a classification algorithm, accuracy is widely employed as an empirical validation index in practice.
