@@ -60,6 +60,7 @@ Since our method is based on the relationship between Heaviside function and mid
 *Algorithm 2: Improved DeLong’s Algorithm*
 
 With the *midrank* function, now we are ready to implement the fast version of DeLong's algorithm, which is showed below as algorithm 2. In this function, the input argument, namely, $samples$, is a struct in MATLAB consisted with two elements:
+
 - $spsizes$ is a $2 * 1$ vector, which represent the sizes of two samples, namely, $X$ and $Y$, and can be denoted by $m$ and $n$, respectively.
 - $ratings$ is a $K * N$ matrix, where each row represents the ratings of one experiments. Note that $N$ must be equal to the sum of $m$ and $n$, and its first $m$ elements is the ratings corresponding to $X$, while the last $n$ corresonding to $Y$.
 
