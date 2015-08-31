@@ -125,7 +125,7 @@ The variables saved in the **.mat** file are *spsizes* and *ratings*, whose mean
 
 ### Citation Request
 
-I hope that tool could be helpful for researchers who using AUC in their work.
+Anyway, I hope that this tool could be helpful for researchers who using AUC in their work.
 
 If you publish material based on these codes, then, please refer to our paper:
 
