@@ -26,9 +26,9 @@ Among algorithms for comparing the areas under two or more correlated receiver o
 one due to its simplicity of implementation in practice.
 Recently, we have reduced the time complexity of DeLong’s algorithm from quadratic down to linearithmic order, based on an equivalent relationship between the Heaviside function and mid-ranks of samples.
 
-In this post, I will release the sourse code of the two algorithms that mentioned in our paper, and then give a brief introduction of a ROC analysis tool that published in my github page.
+In this post, I will release the sourse codes of the two algorithms that mentioned in our paper, and then give a brief introduction of a ROC analysis tool that published in my github page.
 
-### Soure code
+### Soure codes
 
 *Algorithm 1: Procedure of Calculating Mid-ranks*
 
@@ -110,9 +110,13 @@ There are two outputs, *aucs* denotes the AUCs corresponding to each row of the 
 
 ### Introduction of the ROC analysis tool
 
-Furthur more, I have published a UI tool for ROC analysis in my github page, you can download the sourse code here.
+Furthur more, I have published a UI tool for ROC analysis in my github page, you can download the sourse codes here.
 
+To analysis your own data, you should firstly move your experiment results, saved as a **.mat** file in certain format, into the same dirrectory of the source codes of this tool. Then run the **DeLongUserInterface** function, and you will see you file is listed in the "Selected File" pop-up menu. Select your file, and click the "Update Data" button below, several ROC curves will be drawn according to you data. Now chose the two ratings that you would like to analysis in "Rating 1" and "Rating 2" and push the "Analysis" button, you will see the statistical results. Note that all these results are calculated by DeLong's formulas with the fast implementation given by Sun and Xu.
 
+If the color of the text in the push button is red, that means the results shown in the interface is not consistent with the options you chose in the pop-up menu. To fix this problem, all you need to do is just to click the correponding button.
+
+The variables saved in the **.mat** file is *spsizes* and *ratings*, whose meanings have been mentioned in the subsection *Algorithm 2*.
 
 ![plot of chunk unnamed-chunk-4](/images/delong/image_1.png)
  
@@ -121,7 +125,7 @@ Furthur more, I have published a UI tool for ROC analysis in my github page, you
 
 ### Citation Request
 
-If you publish material based on these code, then, please refer to our paper:
+If you publish material based on these codes, then, please refer to our paper:
 
     X. Sun, W. Xu, Fast implementation of DeLong's algorithm for comparing the areas under correlated receiver operating characteristic curves, IEEE Signal Processing Letters 21 (11) (2014) 1389-1393.
 
