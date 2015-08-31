@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "ROC Analysis Tool Using DeLong's Method"
+title:  "ROC Analysis Tool based on DeLong's Method"
 date:   2015-8-31
 categories: update
 ---
+
+**Background**
 
 CLASSIFICATION is an important framework of data analysis that extracts models describing and distinguishing data classes and concepts associated with the observed dataset.
 To evalute the performance of a classification algorithm, accuracy is widely employed as an empirical validation index in practice.
@@ -24,9 +26,13 @@ Among algorithms for comparing the areas under two or more correlated receiver o
 one due to its simplicity of implementation in practice.
 Recently, we have reduced the time complexity of DeLong’s algorithm from quadratic down to linearithmic order, based on an equivalent relationship between the Heaviside function and mid-ranks of samples.
 
-In this post, I release our sourse codes and expect them to be helpful for researchers who using AUC as a tool in their work.
+In this post, I will release the sourse codes of the two algorithms that mentioned in this paper, and then give a brief introduction of a ROC analysis tool that published in my github page.
 
-**Algorithm 1: Procedure of Calculating Mid-ranks**
+**Soure codes**
+
+Since our method is based on the relationship between Heaviside function and mid-ranks of samples, the first step is to calculate the mid-ranks. Below is the MATLAB code to acheive that. The input of this function, namely, *x*, is a one by N vector, and the output is the corresponding mid-ranks.
+
+*Algorithm 1: Procedure of Calculating Mid-ranks*
 
     function T = midrank(x)
     %MIDRANK
@@ -50,29 +56,16 @@ In this post, I release our sourse codes and expect them to be helpful for resea
     T(J) = T;
     end
 
-**Algorithm 2: Improved DeLong’s Algorithm**
+With the *midrank* function, now we are ready to implement our fast version of DeLong's algorithm, which is showed below as algorithm 2. In this function, the input, namely, *samples*, is a struct in MATLAB consisted with two elements, *ratings* and *spsizes*. *ratings*
+
+*Algorithm 2: Improved DeLong’s Algorithm*
 
     function [aucs, delongcov] = fastDeLong(samples)
     %FASTDELONGCOV
     %The fast version of DeLong's method for computing the covariance of 
     %unadjusted AUC.
-    %% Reference:
-    % @article{sun2014fast,
-    %   title={Fast Implementation of DeLong's Algorithm for Comparing the Areas Under Correlated Receiver Operating Characteristic Curves},
-    %   author={Xu Sun and Weichao Xu},
-    %   journal={IEEE Signal Processing Letters},
-    %   volume={21},
-    %   number={11},
-    %   pages={1389--1393},
-    %   year={2014},
-    %   publisher={IEEE}
-    % }
     %% [aucs, delongcov] = fastDeLong(samples)
     %% 
-    % Edited by Xu Sun.
-    % Homepage: https://pamixsun.github.io
-    % Version: 2014/12
-    %%
     
     if sum(samples.spsizes) ~= size(samples.ratings, 2) || numel(samples.spsizes) ~= 2
         error('Argument mismatch error');
@@ -107,13 +100,23 @@ In this post, I release our sourse codes and expect them to be helpful for resea
     
     end
 
-Furthur more, I have published a UI tool for ROC analysis in my github page. Below are some images of it.
+
+**Introduction of the ROC analysis tool**
+
+Furthur more, I have published a UI tool for ROC analysis in my github page, you can download the sourse code here.
 
 ![plot of chunk unnamed-chunk-4](/images/delong/image_1.png)
  
 ![plot of chunk unnamed-chunk-4](/images/delong/image_2.png) 
 
-If you use our codes in your work, please cite our paper.
+
+**Citation Request**
+
+If you publish material based on these codes, then, please refer to our paper:
+
+    X. Sun, W. Xu, Fast implementation of DeLong's algorithm for comparing the areas under correlated receiver operating characteristic curves, IEEE Signal Processing Letters 21 (11) (2014) 1389{1393.
+
+Here is a BiBTeX citation as well:
 
     @article{sun2014fast,
       title={Fast Implementation of DeLong's Algorithm for Comparing the Areas Under Correlated Receiver Operating Characteristic Curves},
@@ -125,4 +128,5 @@ If you use our codes in your work, please cite our paper.
       year={2014},
       publisher={IEEE}
     }
+
 

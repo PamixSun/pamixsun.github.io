@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "ROC Analysis Tool Using DeLong's Method"
+title:  "ROC Analysis Tool based on DeLong's Method"
 date:   2015-8-31
 categories: update
 ---
+
+**Background**
 
 CLASSIFICATION is an important framework of data analysis that extracts models describing and distinguishing data classes and concepts associated with the observed dataset.
 To evalute the performance of a classification algorithm, accuracy is widely employed as an empirical validation index in practice.
@@ -24,9 +26,13 @@ Among algorithms for comparing the areas under two or more correlated receiver o
 one due to its simplicity of implementation in practice.
 Recently, we have reduced the time complexity of DeLong’s algorithm from quadratic down to linearithmic order, based on an equivalent relationship between the Heaviside function and mid-ranks of samples.
 
-In this post, I release our sourse codes and expect them to be helpful for researchers who using AUC as a tool in their work.
+In this post, I will release the sourse codes of the two algorithms that mentioned in our paper, and then give a brief introduction of a ROC analysis tool that published in my github page.
 
-**Algorithm 1: Procedure of Calculating Mid-ranks**
+**Soure codes**
+
+Since our method is based on the relationship between Heaviside function and mid-ranks of samples, the first step is to calculate the mid-ranks. Below is the MATLAB code to acheive that. The input of this function, namely, $x$, is a one by $N$ vector, and the output is the corresponding mid-ranks.
+
+*Algorithm 1: Procedure of Calculating Mid-ranks*
 
     function T = midrank(x)
     %MIDRANK
@@ -50,7 +56,11 @@ In this post, I release our sourse codes and expect them to be helpful for resea
     T(J) = T;
     end
 
-**Algorithm 2: Improved DeLong’s Algorithm**
+With the *midrank* function, now we are ready to implement the fast version of DeLong's algorithm, which is showed below as algorithm 2. In this function, the input argument, namely, $samples$, is a struct in MATLAB consisted with two elements:
+- $spsizes$ is a $2 * 1$ vector, which represent the sizes of two samples, namely, $X$ and $Y$, and can be denoted by $m$ and $n$, respectively.
+- $ratings$ is a $K * N$ matrix, where each row represents the ratings of one experiments. Note that $N$ must be equal to the sum of $m$ and $n$, and its first $m$ elements is the ratings corresponding to $X$, while the last $n$ corresonding to $Y$.
+
+*Algorithm 2: Improved DeLong’s Algorithm*
 
     function [aucs, delongcov] = fastDeLong(samples)
     %FASTDELONGCOV
@@ -92,16 +102,23 @@ In this post, I release our sourse codes and expect them to be helpful for resea
     
     end
 
+
+**Introduction of the ROC analysis tool**
+
 Furthur more, I have published a UI tool for ROC analysis in my github page, you can download the sourse code here.
+
+
 
 ![plot of chunk unnamed-chunk-4](/images/delong/image_1.png)
  
 ![plot of chunk unnamed-chunk-4](/images/delong/image_2.png) 
 
+
+**Citation Request**
+
 If you publish material based on these codes, then, please refer to our paper:
 
-    X. Sun, W. Xu, Fast implementation of DeLong's algorithm for comparing the areas under correlated receiver operating characteristic curves, IEEE
-    Signal Processing Letters 21 (11) (2014) 1389{1393.
+    X. Sun, W. Xu, Fast implementation of DeLong's algorithm for comparing the areas under correlated receiver operating characteristic curves, IEEE Signal Processing Letters 21 (11) (2014) 1389{1393.
 
 Here is a BiBTeX citation as well:
 
