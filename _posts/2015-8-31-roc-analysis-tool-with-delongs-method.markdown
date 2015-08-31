@@ -110,7 +110,7 @@ There are two outputs, *aucs* denotes the AUCs corresponding to each row of the 
 
 ### Introduction of the ROC analysis tool
 
-Furthur more, I have published a UI tool for ROC analysis in my github page, you can download the sourse codes here.
+Furthur more, I have published a UI tool for ROC analysis in my github page, you can download the sourse codes [here](https://github.com/PamixSun/DeLongUI).
 
 To analysis your own data, you should firstly move your experiment results, saved as a **.mat** file in certain format, into the same dirrectory of the source codes of this tool. Then run the **DeLongUserInterface** function, and you will see you file is listed in the "Selected File" pop-up menu. Next, select your file and click the "Update Data" button below, several ROC curves will then be drawn according to you data. Now chose the two ratings that you would like to analysis in "Rating 1" and "Rating 2" and push the "Analysis" button, you will finally gain the statistical results. Note that all these results are calculated by DeLong's formulas with the fast implementation given by Sun and Xu.
 
