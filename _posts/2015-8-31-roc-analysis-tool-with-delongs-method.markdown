@@ -118,9 +118,9 @@ If the color of the text in the push button is red, that means the results shown
 
 The variables saved in the **.mat** file are *spsizes* and *ratings*, whose meanings have been mentioned in the subsection *Algorithm 2*.
 
-![plot of chunk unnamed-chunk-4](/images/delong/image_1.png)
+![plot of chunk image_1](/images/delong/image_1.png)
  
-![plot of chunk unnamed-chunk-4](/images/delong/image_2.png) 
+![plot of chunk image_2](/images/delong/image_2.png) 
 
 
 ### Citation Request
