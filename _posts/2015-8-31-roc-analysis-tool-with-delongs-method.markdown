@@ -116,7 +116,7 @@ To analysis your own data, you should firstly move your experiment results, save
 
 If the color of the text in the push button is red, that means the results shown in the interface is not consistent with the options you chose in the pop-up menu. To fix this problem, all you need to do is just to click the correponding button.
 
-The variables saved in the **.mat** file is *spsizes* and *ratings*, whose meanings have been mentioned in the subsection *Algorithm 2*.
+The variables saved in the **.mat** file are *spsizes* and *ratings*, whose meanings have been mentioned in the subsection *Algorithm 2*.
 
 ![plot of chunk unnamed-chunk-4](/images/delong/image_1.png)
  
