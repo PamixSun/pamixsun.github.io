@@ -62,7 +62,7 @@ Since our method is based on the relationship between Heaviside function and mid
 With the **midrank** function, now we are ready to implement the fast version of DeLong's algorithm, which is shown below. In this function, the input argument, namely, *samples*, is a struct in MATLAB consisted of two elements:
 
 - *spsizes* is a *2 * 1* vector, which represents the sizes of two samples, namely, *X* and *Y*. For ease of later reference, let *m*, *n* denote these two values.
-- *ratings* is a *K * N* matrix, where each row represents the ratings of one experiments. Note that *N* must be equal to the sum of *m* and *n*, and its first *m* elements is the ratings corresponding to *X*, while the last *n* elements corresonding to *Y*.
+- *ratings* is a *K * N* matrix, where each row represents the ratings of one experiments. Note that *N* must be equal to the sum of *m* and *n*, and its first *m* elements is the ratings corresponding to *X*, while the last *n* elements corresponding to *Y*.
 
 There are two outputs, *aucs* denotes the AUCs corresponding to each row of the *ratings*, while *delongcov* is the covariance matrix.
 
