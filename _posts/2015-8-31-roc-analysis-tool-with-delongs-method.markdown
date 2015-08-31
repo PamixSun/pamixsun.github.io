@@ -30,7 +30,7 @@ In this post, I will release the sourse codes of the two algorithms that mention
 
 ### Soure codes
 
-*Algorithm 1: Procedure of Calculating Mid-ranks*
+#### *Algorithm 1: Procedure of Calculating Mid-ranks*
 
 Since our method is based on the relationship between Heaviside function and mid-ranks of samples, the first step is to calculate the mid-ranks. Below is a MATLAB function to acheive that. The input of this function, *x*, is a one by *N* vector, and the output, *T*, is the corresponding mid-ranks.
 
@@ -57,7 +57,7 @@ Since our method is based on the relationship between Heaviside function and mid
     T(J) = T;
     end
 
-*Algorithm 2: Improved DeLong’s Algorithm*
+#### *Algorithm 2: Improved DeLong’s Algorithm*
 
 With the **midrank** function, now we are ready to implement the fast version of DeLong's algorithm, which is showed below as algorithm 2. In this function, the input argument, namely, *samples*, is a struct in MATLAB consisted of two elements:
 
