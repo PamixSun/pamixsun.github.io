@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ROC Analysis Tool based on DeLong's Method"
+title:  "ROC Analysis Tool Based on DeLong's Method"
 date:   2015-8-31
 categories: update
 ---
