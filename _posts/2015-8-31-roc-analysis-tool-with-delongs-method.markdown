@@ -7,10 +7,6 @@ categories: update
 
 ### Background
 
-CLASSIFICATION is an important framework of data analysis that extracts models describing and distinguishing data classes and concepts associated with the observed dataset.
-To evalute the performance of a classification algorithm, accuracy is widely employed as an empirical validation index in practice.
-However, as criticized by some researchers, accuracy can sometimes be misleading, and should be replaced or complemented with the metric associated with receiver operating characteristic (ROC) analysis.
-
 Originated from problems of radar and sonar detection in early 1950s, receiver operating characteristic (ROC) analysis has become an indispensable tool to tackle
 the so-called two-sample problems in many scientific and engineering fields, such as describing the performances of diagnostic systems in clinical medicine, characterizing the
 overall accuracies of classifiers in machine learning, quantifying the extent of signal detectability in signal processing, and so forth.
