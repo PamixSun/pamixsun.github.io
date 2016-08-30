@@ -14,7 +14,7 @@ You can also find him on a variety of other places across the Internet:
 * [GitHub][github] - A wonderful website which could help you to build your software better.
 * [StackOverflow][stackoverflow] - Q & A, to share your knowledge.
 
-Contact with me: pamixsun@gmail.com
+`Contact me by e-mail`: pamixsun@gmail.com
 
 [researchgate]: https://www.researchgate.net/profile/Xu_Sun12
 [github]: http://www.github.com/PamixSun
