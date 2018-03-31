@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Xu Sun received the B.Eng. and M.Eng. degrees from School of Automation, Guangdong University of Technology, Guangzhou, China in 2013 and 2016, respectively. He was a research assistant at the Department of Electrical and Electronic Engineering, the University of Hong Kong, Hong Kong, from 2016 October to to 2017 July. He is currently a senior researcher with Guangzhou Shiyuan Electronics Ltd., GUangzhou.
+Xu Sun received the B.Eng. and M.Eng. degrees from School of Automation, Guangdong University of Technology, Guangzhou, China in 2013 and 2016, respectively. He was a research assistant at the Department of Electrical and Electronic Engineering, the University of Hong Kong, Hong Kong, from 2016 October to 2017 July. He is currently a senior researcher with Guangzhou Shiyuan Electronics Ltd., Guangzhou.
 His research interests include medical image analysis, statistical learning theory and intelligent systems.
 
 You can also find him on a variety of other places across the Internet:
