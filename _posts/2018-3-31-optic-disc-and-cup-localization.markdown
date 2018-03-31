@@ -17,7 +17,7 @@ In this paper, we introduce the objectness constrain into the OD/OC segmentation
 
 ### Papers
 
-THis work has been accepted by **ISBI 2018** as a one-page abstract.
+THis work has been accepted by **the IEEE International Symposium on Biomedical Imaging (ISBI) 2018** as a one-page abstract.
 
 
 
