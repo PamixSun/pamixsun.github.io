@@ -15,6 +15,9 @@ As the second leading cause of blindness, glaucoma is predicted to affect about 
 
 In this paper, we introduce the objectness constrain into the OD/OC segmentation problem, and gain the higher level discriminate representation based on the deep object detection system. Different from traditional pixel-wise based two-step approaches, we propose a simple yet effective one-step method to jointly localizae/segment OD and OC in a retinal fundus image based on deep object detection networks. The proposed method inherently holds four desirable features: 1) the multi-object detection network involves the OD and OC relationship and localizes them simultaneously; 2) the object detection network contains the objectness property, which presents the high level object constrain; 3) the end-to-end architecture guarantees learning image features automatically, and also allows for transfer learning to address the challenging of small scale data; 4) our deep object detection based method is not only conceptually simpler but also easier to deploy comparing to other multi-step methods such as M-Net. Evaluated on the widely used and publicly available ORIGA dataset, our method outperforms all existing methods, achieving state-of-the-art segmentation performance, Moreover, the proposed method also obtains satisfactory glaucoma screening performance with CDR calculated on the ORIGA and SCES datasets.
 
+### Papers
+
+THis work has been accepted by **ISBI 2018** as a one-page abstract.
 
 
 
