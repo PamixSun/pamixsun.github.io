@@ -145,9 +145,7 @@ Peng, Chao, Tete Xiao, Zeming Li, Yuning Jiang, Xiangyu Zhang, Kai Jia, Gang Yu,
 
 Li, Zeming, Chao Peng, Gang Yu, Xiangyu Zhang, Yangdong Deng, and Jian Sun. "Light-Head R-CNN: In Defense of Two-Stage Object Detector." arXiv preprint arXiv:1711.07264 (2017).
 
-
-#### III. One Stage Methods:
-
+#### One Stage Methods:
 
 **OverFeat**:
 
@@ -189,7 +187,9 @@ Kong, Tao, Fuchun Sun, Anbang Yao, Huaping Liu, Ming Lu, and Yurong Chen. "Ron: 
 
 Lin, Tsung-Yi, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollár. "Focal loss for dense object detection." arXiv preprint arXiv:1708.02002 (2017).
 
-### Semantic Segmentation
+
+### III. Semantic Segmentation
+
 
 **FCNs**:
 
