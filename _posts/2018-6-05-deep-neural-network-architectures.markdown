@@ -5,7 +5,11 @@ date:   2018-6-05
 categories: update
 ---
 
-### Image Recognition
+All papers listed below are available [here](https://pan.baidu.com/s/1qnY9pT7nLY45srkYrmK_vQ).
+
+
+### I. Image Recognition
+
 
 **AlexNet**:
 
@@ -71,7 +75,9 @@ Zhang, Xiangyu, Xinyu Zhou, Mengxiao Lin, and Jian Sun. "Shufflenet: An extremel
 
 Chen, Yunpeng, Jianan Li, Huaxin Xiao, Xiaojie Jin, Shuicheng Yan, and Jiashi Feng. "Dual path networks." In Advances in Neural Information Processing Systems, pp. 4470-4478. 2017.
 
-### Object Detection
+
+### II. Object Detection
+
 
 #### Two Stage Methods:
 
@@ -139,7 +145,9 @@ Peng, Chao, Tete Xiao, Zeming Li, Yuning Jiang, Xiangyu Zhang, Kai Jia, Gang Yu,
 
 Li, Zeming, Chao Peng, Gang Yu, Xiangyu Zhang, Yangdong Deng, and Jian Sun. "Light-Head R-CNN: In Defense of Two-Stage Object Detector." arXiv preprint arXiv:1711.07264 (2017).
 
-#### One Stage Methods:
+
+#### III. One Stage Methods:
+
 
 **OverFeat**:
 
