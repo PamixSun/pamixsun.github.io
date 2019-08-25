@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Xu Sun received the B.Eng. and M.Eng. degrees from School of Automation, Guangdong University of Technology, Guangzhou, China in 2013 and 2016, respectively. 
+Xu Sun received the B.Eng. and M.Eng. degrees from School of Automation, Guangdong University of Technology, Guangzhou, China, in 2013 and 2016, respectively. 
 He was a research assistant with the Department of Electrical and Electronic Engineering, the University of Hong Kong, Hong Kong, from Oct 2016 to Jul 2017. 
-He was a senior researcher with Guangzhou Shiyuan Electronics Ltd., Guangzhou from Oct. 2017 to Aug. 2018. 
-He is currently a senior engineer with Baidu Inc.
+He was a senior researcher with CVTE Research, Guangzhou Shiyuan Electronics Co. Ltd., Guangzhou from Oct. 2017 to Aug. 2018. 
+He is currently a senior engineer with artificial intelligence innovation business, Baidu Inc.
 His research interests include medical image analysis, statistical signal processing, statistical learning theory and intelligent systems.
 He is a reviewer of **MICCAI'18**.
 
