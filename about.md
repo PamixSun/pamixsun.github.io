@@ -26,4 +26,4 @@ You can also find him on a variety of other places across the Internet:
 [github]: http://www.github.com/PamixSun
 [stackoverflow]: http://stackoverflow.com/users/3949420/xu-sun
 [csdn]: http://blog.csdn.net/yunduanmuxue
-[huggingface]: http://blog.csdn.net/yunduanmuxue
+[huggingface]: https://huggingface.co/pamixsun
