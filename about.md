@@ -14,7 +14,7 @@ His research interests include medical image analysis, statistical signal proces
 
 You can also find him on a variety of other places across the Internet:
 
-* [HuggingFace][huggingface] - An AI community for practioners.
+* [HuggingFace][huggingface] - A platform where the machine learning community collaborates.
 * [ResearchGate][researchgate] - A social networks service website for researchers.
 * [CSDN][csdn] - A popular website for programmers in China.
 * [GitHub][github] - A wonderful website which could help you to build your software better.
