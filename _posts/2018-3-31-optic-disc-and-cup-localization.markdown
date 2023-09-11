@@ -17,7 +17,7 @@ In this paper, we formulate the optic disc/optic cup segmentation as a multi-obj
 
 ### Papers
 
-This work has been accepted by **the IEEE International Symposium on Biomedical Imaging (ISBI) 2018** as a one-page abstract.
+Xu Sun, Yanwu Xu, Mingkui Tan, Huazhu Fu, Wei Zhao, Tianyuan You, Jiang Liu. Localizing Optic Disc and Cup for Glaucoma Screening via Deep Object Detection Networks - The 5th International Workshop on Ophthalmic Medical Image Analysis. (2018)
 
 
 
