@@ -22,7 +22,7 @@ Among algorithms for comparing the areas under two or more correlated receiver o
 one due to its simplicity of implementation in practice.
 Recently, we have reduced the time complexity of DeLong’s algorithm from quadratic down to linearithmic order, based on an equivalent relationship between the Heaviside function and mid-ranks of samples.
 
-In this post, I will release the sourse codes of the two algorithms that mentioned in our paper, and then give a brief introduction of a ROC analysis tool that published in my github page.
+In this post, I will release the source codes for the two algorithms mentioned in our paper, followed by a brief introduction to a ROC analysis tool published on my GitHub page.
 
 ### Soure codes
 
