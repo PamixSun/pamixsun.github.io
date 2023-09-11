@@ -28,7 +28,7 @@ In this post, I will release the source codes for the two algorithms mentioned i
 
 #### *Algorithm 1: Procedure of Calculating Mid-ranks*
 
-Since our method is based on the relationship between Heaviside function and mid-ranks of samples, the first step is to calculate the mid-ranks. Below is a MATLAB function to acheive that. The input of this function, *x*, is a one by *N* vector, and the output, *T*, is the corresponding mid-ranks.
+As our method is based on the relationship between the Heaviside function and mid-ranks of samples, the first step is to calculate the mid-ranks. Presented below is a MATLAB function to achieve this. The input to this function, x, is a 1 by N vector, and the output, T, contains the corresponding mid-ranks.
 
 
     function T = midrank(x)
@@ -55,10 +55,10 @@ Since our method is based on the relationship between Heaviside function and mid
 
 #### *Algorithm 2: Improved DeLong’s Algorithm*
 
-With the **midrank** function, now we are ready to implement the fast version of DeLong's algorithm, which is shown below. In this function, the input argument, namely, *samples*, is a struct in MATLAB consisted of two elements:
+With the **midrank** function, we can now implement the fast version of DeLong's algorithm, shown below. The input argument, *samples*, is a MATLAB struct consisting of two elements:
 
-- *spsizes* is a *2 * 1* vector, which represents the sizes of two samples, namely, *X* and *Y*. For ease of later reference, let *m*, *n* denote these two values.
-- *ratings* is a *K * N* matrix, where each row represents the ratings of one experiments. Note that *N* must be equal to the sum of *m* and *n*, and its first *m* elements is the ratings corresponding to *X*, while the last *n* elements corresponding to *Y*.
+- *spsizes* is a *2 x 1* vector, which represents the sizes of two samples, namely, *X* and *Y*. For ease of later reference, let *m*, *n* denote these two values.
+- *ratings* is a *K x N* matrix, where each row represents the ratings of one experiments. Note that *N* must be equal to the sum of *m* and *n*, and its first *m* elements is the ratings corresponding to *X*, while the last *n* elements corresponding to *Y*.
 
 There are two outputs, *aucs* denotes the AUCs corresponding to each row of the *ratings*, while *delongcov* is the covariance matrix.
 
@@ -106,11 +106,11 @@ There are two outputs, *aucs* denotes the AUCs corresponding to each row of the 
 
 ### Introduction of the ROC analysis tool
 
-Furthur more, I have published a UI tool for ROC analysis in my github page, you can download the sourse codes [here](https://github.com/PamixSun/DeLongUI).
+Furthur more, I have published a UI tool for ROC analysis in my Github page, you can download the sourse codes [here](https://github.com/PamixSun/DeLongUI).
 
-To analysis your own data, you should firstly move your experiment results, saved as a **.mat** file in certain format, into the same dirrectory of the source codes of this tool. Then run the **DeLongUserInterface** function, and you will see you file is listed in the "Selected File" pop-up menu. Next, select your file and click the "Update Data" button below, several ROC curves will then be drawn according to you data. Now chose the two ratings that you would like to analysis in "Rating 1" and "Rating 2" and push the "Analysis" button, you will finally gain the statistical results. Note that all these results are calculated by DeLong's formulas with the fast implementation given by Sun and Xu.
+To analyze your own data, you should first move your experiment results, saved as a **.mat** file in the required format, into the same directory as the source code for this tool. Then run the **DeLongUserInterface** function, and you will see your file listed in the "Selected File" popup menu. Next, select your file and click the "Update Data" button below - several ROC curves will be drawn based on your data. Now choose the two ratings you would like to analyze under "Rating 1" and "Rating 2", and click the "Analysis" button. Finally, you will obtain the statistical results. Note that all results are calculated using DeLong's formulas, implemented efficiently as described by Sun and Xu.
 
-If the color of the text in the push button is red, that means the results shown in the interface is not consistent with the options you chose in the pop-up menu. To fix this problem, all you need to do is just to click the correponding button.
+If the text color of a push button is red, it indicates that the results shown in the interface are inconsistent with the options chosen in the popup menu. To fix this, simply click on the corresponding button again. The text color will turn back to black, indicating that the results now match your selected options. This provides a quick visual check to ensure the analysis reflects your choices.
 
 The variables saved in the **.mat** file are *spsizes* and *ratings*, whose meanings have been mentioned in the subsection *Algorithm 2*.
 
