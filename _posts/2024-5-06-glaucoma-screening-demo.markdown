@@ -9,7 +9,8 @@ categories: update
 ## AI Demo
 
 <iframe
-  src="https://huggingface.co/spaces/pamixsun/glaucoma_screening"
-  width="100%"
-  height="500px"
+    src="https://huggingface.co/spaces/pamixsun/glaucoma_screening"
+    frameborder="0"
+    width="850"
+    height="450"
 ></iframe>
