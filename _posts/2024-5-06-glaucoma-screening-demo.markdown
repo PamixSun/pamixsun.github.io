@@ -10,7 +10,7 @@ categories: update
 <iframe
 	src="https://pamixsun-glaucoma-screening.hf.space"
 	frameborder="0"
-	width="1000"
-	height="800"
+	width="1500"
+	height="1000"
 ></iframe>
 
