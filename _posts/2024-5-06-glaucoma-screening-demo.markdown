@@ -8,8 +8,9 @@ categories: update
 ## AI Demo
 
 <iframe
-    src="https://pamixsun/glaucoma_screening.hf.space"
-    frameborder="0"
-    width="850"
-    height="450"
+	src="https://pamixsun-glaucoma-screening.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
 ></iframe>
+
