@@ -5,11 +5,10 @@ date:   2024-5-06
 categories: update
 ---
 
-
 ## AI Demo
 
 <iframe
-    src="https://huggingface.co/spaces/pamixsun/glaucoma_screening"
+    src="https://pamixsun/glaucoma_screening.hf.space"
     frameborder="0"
     width="850"
     height="450"
