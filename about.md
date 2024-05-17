@@ -7,8 +7,8 @@ permalink: /about/
 Xu Sun received the B.Eng. and M.Eng. degrees from School of Automation, Guangdong University of Technology, Guangzhou, China, in 2013 and 2016, respectively. 
 He was a research assistant with the Department of Electrical and Electronic Engineering, the University of Hong Kong, Hong Kong, China, from 2016 to 2017. 
 He was a Engineer with CVTE Research, Guangzhou Shiyuan Electronics Co. Ltd., Guangzhou, China, from 2017 to 2018. 
-He was a senior engineer with intelligent health unit, Baidu Inc., Beijing, China, from 2017 to 2021.
-He was a senior research with Tencent Jarvis Lab, Tencent, Shenzhen, China, from 2021 to 2022.
+He was a senior engineer with intelligent health unit, Baidu Inc., Beijing, China, from 2018 to 2021.
+He was a senior researcher with Tencent Jarvis Lab, Tencent, Shenzhen, China, from 2021 to 2022.
 He is currently a principal engineer with Pazhou Lab, Guangzhou, China.
 His research interests include medical image analysis, statistical signal processing, statistical learning theory and intelligent systems.
 
